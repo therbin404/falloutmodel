@@ -1,0 +1,182 @@
+body {
+  font-family: roboto;
+  width: 793px;
+  margin: auto;
+}
+
+ul {
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 70px;
+}
+
+p {
+  text-align: justify;
+}
+
+footer {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(43,43,43,1) 100%);
+  height: 169px;
+  text-align: center;
+}
+
+.head {
+  background-image: url('images/fallout76.jpg');
+  background-size: 119%;
+  height: 461px;
+  color: white;
+}
+
+.headContent {
+  padding: 30px 25px 70px 56px;
+  width: 335px;
+}
+
+.bethesda {
+  background-color: #D3B739;
+  float: left;
+  height: 191px;
+  width: 53px;
+}
+
+.bethesda p {
+  transform: rotate(270deg);
+  margin-top: 131px;
+  font-size: 33px;
+}
+
+.description {
+  margin-left: 76px;
+  padding-top: 15px;
+}
+
+.description p {
+  text-align: left;
+  font-size: 32px;
+  margin: 0;
+}
+
+.content {
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(226,227,226,1) 100%);
+  padding-top: 40px;
+  padding-bottom: 77px;
+}
+
+.firstParagraph {
+  font-size: 14px;
+}
+
+.secondParagraph {
+  font-size: 16px;
+}
+
+.verticalLine {
+  display: inline-block;
+  float: left;
+  width: 8px;
+  margin-left: 13%;
+  margin-right: 6%;
+  background-color: #D3B739;
+  height: 315px;
+}
+
+.break {
+  clear: both;
+}
+
+.contentInformations {
+  width: 67%;
+  display: inline-block;
+}
+
+.contentInformations p:first-child {
+  margin-top: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.color {
+  color: #D3B739;
+}
+
+.lite {
+  font-weight: 300;
+}
+
+.ultraLite {
+  font-weight: 100;
+}
+
+.style {
+  font-style: italic;
+}
+
+.alignCron {
+  background-image: url('images/cron.png');
+  background-size: cover;
+  width: 143px;
+  height: 142px;
+  float: right;
+  margin-right: 60px;
+  margin-top: 24px;
+}
+
+.alignVaultBoy {
+  float: left;
+  margin-left: 54px;
+  margin-top: 18px;
+}
+
+.alignVaultBoy img {
+  width: 150px;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.listStyle {
+  height: 8px;
+  width: 8px;
+  margin-top: 7px;
+  margin-right: 40px;
+  background-color: black;
+  border-radius: 50%;
+  float: left;
+}
+
+li p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.release {
+  margin-top: 35px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.titleCron {
+  font-size: 20px;
+}
+
+footer img {
+  width: 97px;
+  padding-top: 33px;
+}
