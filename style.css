@@ -215,10 +215,52 @@ footer img {
   .head > img {
     right: 0;
   }
+
+  .verticalLine {
+    height: 350px;
+  }
+
+  .firstParagraph {
+    font-size: 16px;
+  }
+  
+  .secondParagraph {
+    font-size: 18px;
+  }
+
+  li p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .headContent {
+    margin-left: 10%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .head > img {
     right: 0;
+  }
+
+  .verticalLine {
+    height: 350px;
+  }
+
+  .firstParagraph {
+    font-size: 20px;
+  }
+  
+  .secondParagraph {
+    font-size: 22px;
+  }
+
+  li p {
+    font-size: 20px;
+    line-height: 29px;
+  }
+
+  .headContent {
+    margin-left: 10%;
   }
 }
