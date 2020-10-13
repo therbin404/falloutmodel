@@ -42,15 +42,24 @@ footer img {
 }
 
 .head {
-  background-image: url('images/fallout76.jpg');
-  background-size: 119%;
+  background-color: black;
   height: 461px;
   color: white;
+}
+
+.head > img {
+  position: absolute;
+  left: 20%;
+  height: 461px;
 }
 
 .headContent {
   padding: 30px 25px 70px 56px;
   width: 335px;
+  margin-left: 5%;
+  float: left;
+  z-index: 1000;
+  position: absolute;
 }
 
 .bethesda {
@@ -183,3 +192,8 @@ footer img {
 .imagesEndContent:last-child {
    clear: both;
 }
+
+/*
+768
+992
+1200*/
