@@ -49,7 +49,6 @@ footer img {
 
 .head > img {
   position: absolute;
-  left: 20%;
   height: 461px;
 }
 
@@ -197,3 +196,29 @@ footer img {
 768
 992
 1200*/
+
+@media screen and (max-width: 768px) {
+  .head > img {
+    left: 20%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .verticalLine {
+    height: 280px;
+  }
+  .head > img {
+    left: 20%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .head > img {
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .head > img {
+    right: 0;
+  }
+}
