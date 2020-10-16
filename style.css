@@ -55,14 +55,15 @@ footer img {
   padding: 30px 25px 70px 56px;
   width: 335px;
   margin-left: 5%;
-  float: left;
   z-index: 1000;
-  position: absolute;
+}
+
+.intro {
+  display: flex;
 }
 
 .bethesda {
   background-color: #D3B739;
-  float: left;
   height: 191px;
   width: 53px;
 }
@@ -74,7 +75,7 @@ footer img {
 }
 
 .description {
-  margin-left: 76px;
+  margin-left: 10px;
   padding-top: 15px;
 }
 
