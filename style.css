@@ -42,14 +42,13 @@ footer img {
 }
 
 .head {
+  background-image: url("images/fallout76.jpg");
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
   background-color: black;
   height: 461px;
   color: white;
-}
-
-.head > img {
-  position: absolute;
-  height: 461px;
 }
 
 .headContent {
